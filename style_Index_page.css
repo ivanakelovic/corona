@@ -1,0 +1,80 @@
+.zaglavlje
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.dugme{
+
+    height: 20%;
+    border: 1px solid grey;
+    border-radius: 3px;
+    background-color: darkgrey;
+    padding-top: 5px;
+    padding-bottom:5px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+.ispis_tabela{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+table
+{
+    border-collapse: collapse;
+    margin-top: 20px;
+
+}
+td{
+    border: 1px inset darkgray;
+    text-align: center;
+    padding: 5px;
+}
+th{
+    background-color: grey;
+    border: 1px inset darkgray;
+    text-align: center;
+    white-space: nowrap;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+tr:nth-last-of-type(1) td
+{
+    border: 0;
+
+}
+
+tr:nth-last-of-type(2) td
+{
+    padding-top: 25px;
+    border: 0;
+}
+tr:last-of-type td:last-of-type, tr:nth-last-of-type(2) td:last-of-type
+{
+    text-align: right;
+    font-weight: bolder;
+}
+tr:last-of-type td:first-of-type, tr:nth-last-of-type(2) td:first-of-type
+{
+    text-align: left;
+}
+tr:hover /*, tr:hover th*/{
+    background-color:#b8b894 ;
+    font-weight: bold;
+}
+tr td:last-of-type
+{
+    text-transform: uppercase;
+}
+
+td:last-of-type:hover/*, th:last-of-type:hover*/
+{
+    border: 1px solid red;
+    cursor: pointer;
+}

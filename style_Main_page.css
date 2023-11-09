@@ -1,0 +1,45 @@
+.container
+{
+   /* margin: auto;
+    width: 50%;*/
+    /*
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;*/
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+}
+td{
+    text-align: right;
+    padding-top: 15px;
+}
+#date, #last_name, #first_name, #country_name
+{
+    width: 100%;
+}
+.radio_dugmici
+{
+    text-align: left;
+}
+
+.nowrap{
+    white-space: nowrap;
+}
+.dugmici_add_res{
+    display: flex;
+    justify-content: space-between;
+}
+.dugme{
+    width: 48%;
+    height: 100%;
+    white-space: nowrap;
+    border: 1px solid grey;
+    border-radius: 3px;
+    background-color: darkgrey;
+    padding: 7px;
+
+}
